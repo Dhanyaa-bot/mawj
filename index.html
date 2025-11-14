@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Mawj Media | Creative Digital Agency">
+	<meta name="description" content="Mawj Media is a full-service creative studio and dynamic startup agency helping businesses elevate their brand presence through digital marketing, branding, web development, and creative strategy. Based in KSA with a presence across India, UAE, and Bahrain.">
+	<meta name="keywords" content="Mawj Media, creative agency, digital marketing, branding, web development, design agency, KSA, India, UAE, Bahrain, marketing agency">
+	<meta name="author" content="Mawj Media">
+	<!-- Open Graph / Facebook -->
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://www.mawjsa.com/">
+	<meta property="og:title" content="Mawj Media | Creative Digital Agency">
+	<meta property="og:description" content="We craft digital experiences that inspire, engage, and deliver results across KSA, India, UAE, and Bahrain.">
+	<meta property="og:image" content="https://www.mawjsa.com/header.svg">
+	<!-- Twitter -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:url" content="https://www.mawjsa.com/">
+	<meta name="twitter:title" content="Mawj Media | Creative Digital Agency">
+	<meta name="twitter:description" content="Transforming ideas into visually striking, result-driven digital experiences.">
+	<meta name="twitter:image" content="https://www.mawjsa.com/header.svg">
+	<title>Mawj Media | Creative Digital Agency</title>
+	<!-- Fav Icon -->
+	<link rel="icon" type="image/x-icon" href="img/fav.svg">
+	<!-- Vendor CSS Files -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/fontawesome.min.css">
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="css/meanmenu.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<!-- Template Main CSS File -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css"> </head>
+
+<body class="body-wrapper body-digital-agency font-heading-instrumentsans-medium">
+	<!-- Sroll to top -->
+	<div class="progress-wrap">
+		<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+			<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+		</svg>
+	</div>
+	<!-- cursorAnimation start -->
+	<div class="cursor-wrapper relative">
+		<div class="cursor"></div>
+		<div class="cursor-follower"></div>
+	</div>
+	<!-- cursorAnimation end -->
+	<!-- side toggle start -->
+	<aside class="fix">
+		<div class="side-info">
+			<div class="side-info-content">
+				<div class="offset-widget offset-header">
+					<div class="offset-logo">
+						<a href="index.html"> <img src="img/header.svg" alt="site logo"> </a>
+					</div>
+					<button id="side-info-close" class="side-info-close"> <i class="fas fa-times"></i> </button>
+				</div>
+				<div class="mobile-menu d-xl-none fix"></div>
+				<div class="offset-button">
+					<a href="contact.html" class="rr-btn hover-bg-theme"> <span class="btn-wrap">
+              <span class="text-one">Let's Talk</span> <span class="text-two">Let's Talk</span> </span>
+					</a>
+				</div>
+				<div class="offset-widget-box">
+					<h2 class="title">Contact US</h2>
+					<div class="contact-meta">
+						<div class="contact-item"> <span class="icon"><i class="fa-solid fa-location-dot"></i></span> <span class="text">KSA | INDIA | UAE | BAHRAIN</span> </div>
+						<div class="contact-item"> <span class="icon"><i class="fa-solid fa-envelope"></i></span> <span class="text"><a href="mailto:hello@mawjmedia.com">hello@mawjmedia.com</a></span> </div>
+						<div class="contact-item"> <span class="icon"><i class="fa-solid fa-phone"></i></span> <span class="text"><a href="tel:966591825404">+966 591 82 5404</a></span> </div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</aside>
+	<div class="offcanvas-overlay"></div>
+	<!-- side toggle end -->
+
+<!-- Header area start -->
+<header class="header-area">
+	<div class="header-main">
+		<div class="container large">
+			<div class="header-area__inner">
+				<div class="header_logo">
+					<a href="index.html"> <img src="img/header.svg" class="w-100"> </a>
+				</div>
+				<div class="header__nav">
+					<nav class="main-menu">
+						<ul>
+							<li class=" <?php if($currentPage =='index'){echo 'active';}?>"> <a href="index.html">Home</a> </li>
+							<li class="menu-item-has-children <?php if($currentPage =='about'){echo 'active';}?>"> <a href="#">About Mawj</a>
+								<ul class="dp-menu">
+									<li><a href="about.html">Introduction</a></li>
+									<li><a href="vision-mission.html">Mission-Vision</a></li>
+								</ul>
+							</li>
+							<li class="menu-item-has-children <?php if($currentPage =='services'){echo 'active';}?>"> <a href="#">Service</a>
+								<ul class="dp-menu">
+									<li><a href="marketing.html">Marketing</a></li>
+									<li><a href="events.html">Events</a></li>
+									<li><a href="social-media-marketing.html">Social Media Marketing</a></li>
+									<li><a href="content-creation.html">Content Creation</a></li>
+									<li><a href="campaigns.html">Campaigns</a></li>
+									<li><a href="branding.html">Branding</a></li>
+								</ul>
+							</li>
+							<li class="<?php if($currentPage =='clients'){echo 'active';}?>"> <a href="clients.html">Clients</a> </li>
+							<li class=" <?php if($currentPage =='works'){echo 'active';}?>"> <a href="works.html">Works</a> </li>
+							<li class="<?php if($currentPage =='contact'){echo 'active';}?>"> <a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="header__button">
+					<a href="contact.html" class="rr-btn hover-bg-theme"> <span class="btn-wrap">
+                <span class="text-one">Let’s Talk</span> <span class="text-two">Let’s Talk</span> </span>
+					</a>
+				</div>
+				<div class="header__navicon d-xl-none">
+					<button class="side-toggle"> <i class="fa-solid fa-bars"></i></button>
+				</div>
+			</div>
+		</div>
+	</div>
+</header>
+<!-- Header area end -->
+<div class="has-smooth" id="has_smooth"></div>
+<div id="smooth-wrapper">
+	<div id="smooth-content">
+		<main>
+	<!-- hero area start  -->
+	<section class="hero-area">
+		<div class="container large">
+			<div class="hero-area-inner section-spacing-top">
+				<div class="hero-content section-spacing-bottom">
+					<div class="award-wrapper fade-anim" data-delay="0.90" data-direction="left" data-ease="back.out(4)">
+						<div class="circle-text-wrapper">
+							<div class="circle-text"> <img src="img/home/icon.png" alt="image" class="text"> </div>
+						</div>
+					</div>
+					<div class="section-header">
+						<div class="section-title-wrapper">
+							<div class="title-wrapper">
+								<h2 class="section-title font-instrumentsans-medium char-anim" data-delay="0.45">Let’s elevate your brand  with<span><img class="title-shape-1 fade-anim" src="img/home/icon.png" alt="image"
+                            data-direction="right" data-delay="1.80"></span>  expert work</h2> </div>
+						</div>
+					</div>
+					<div class="section-content">
+						<div class="text-wrapper fade-anim" data-delay="0.75">
+							<p class="text">We blend strategy, design, and technology to build brands and impactful digital solutions that elevate businesses.</p>
+						</div>
+					</div>
+				</div>
+				<!--<div class="big-text-wrapper text-heading-gradient">--->
+				<div class="big-text-wrapper ">
+					<h2 class="big-text ">MAWJ
+                </h2> </div>
+			</div>
+		</div>
+	</section>
+	<!-- hero area end  -->
+	<!-- about area start  -->
+	<section class="about-area ">
+		<div class="container large">
+			<div class="about-area-inner section-spacing">
+				<div class="section-content">
+					<div class="shape-1"></div>
+					<div class="shape-2"></div>
+					<div class="shape-3"></div>
+					<div class="shape-4"></div>
+					<div class="section-title-wrapper">
+						<div class="title-wrapper">
+							<h2 class="section-title font-instrumentsans-medium">Mawj</h2> </div>
+					</div>
+					<div class="text-wrapper">
+						<p class="text">Mawj Media is a full-service creative studio and dynamic startup agency dedicated to transforming ideas into visually striking experiences that help businesses elevate their brand presence through digital marketing, branding, web development, and creative strategy.</p>
+					</div>
+					<div class="btn-wrapper ">
+						<a href="about.html" class="rr-btn  btn-text-fli hover-bg-theme"> <span class="btn-wrap">
+                      <span class="text-one">Learn More</span> <span class="text-two">Learn More</span> </span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- about area end  -->
+	<!---paralax-->
+	<section class="paralax-home-mawj  parallax-view">
+		<div class="container">
+			<div class="paralax-content">
+				<h2>Exclusive offers <br>
+crafted for  <br>
+our best customers
+</h2> </div>
+		</div>
+	</section>
+	<!-- service area start  -->
+	<section class="service-area section-spacing">
+		<div class="container large">
+			<div class="service-area-inner ">
+				<div class="section-header row ">
+					<div class="sec-header-left col-md-5">
+						<div class="title-wrapper">
+							<h6>Services</h6> </div>
+					</div>
+					<div class="section-title-wrapper fade-anim col-md-7">
+						<div class="title-wrapper">
+							<h2 class="section-title font-instrumentsans-medium word-anim">Driven by<br> precision and<br>  proficiency</h2> </div>
+					</div>
+				</div>
+				<div class="services-wrapper-box">
+					<div class="services-wrapper-1">
+						<div class="service-box fade-anim">
+							<div class="count"> <span class="number"> <img  src="img/icons/1.png" alt="image"></span> </div>
+							<div class="content">
+								<h3 class="title"><a href="marketing.html">Marketing</a></h3>
+								<ul class="service-list">
+									<li><a href="">SocialMediaManagement</a></li>
+									<li><a href="">ContentCreation</a></li>
+									<li><a href="">Brand Strategy & Development</a></li>
+									<li><a href="">InfluencerPartnerships</a></li>
+								</ul>
+							</div>
+							<div class="thumb"> <img class="grow" src="img/services/Marketing.jpg" alt="image"> </div>
+						</div>
+						<div class="service-box fade-anim">
+							<div class="count"> <span class="number"> <img  src="img/icons/2.png" alt="image"></span> </div>
+							<div class="content">
+								<h3 class="title"><a href="events.html">Events</a></h3>
+								<ul class="service-list">
+									<li><a href="">Event Planning & Management</a></li>
+									<li><a href="">Corporate Events </a></li>
+									<li><a href="">Concerts & LiveShows</a></li>
+									<li><a href="">Festivals & Public Events</a></li>
+								</ul>
+							</div>
+							<div class="thumb"> <img class="grow" src="img/services/events.jpg" alt="image"> </div>
+						</div>
+						<div class="service-box fade-anim">
+							<div class="count"> <span class="number"> <img  src="img/icons/3.png" alt="image"></span> </div>
+							<div class="content">
+								<h3 class="title"><a href="social-media-marketing.html">Social Media Marketing</a></h3>
+								<ul class="service-list">
+									<li><a href="">SocialMediaStrategy & Planning</a></li>
+									<li><a href="">ContentCreation & Design</a></li>
+									<li><a href="">Community Management</a></li>
+									<li><a href="">Influencer Collaborations</a></li>
+								</ul>
+							</div>
+							<div class="thumb"> <img class="grow" src="img/services/sm-market.jpg" alt="image"> </div>
+						</div>
+						<div class="service-box fade-anim">
+							<div class="count"> <span class="number"> <img  src="img/icons/4.png" alt="image"></span> </div>
+							<div class="content">
+								<h3 class="title"><a href="content-creation.html">Content Creation</a></h3>
+								<ul class="service-list">
+									<li><a href="">CreativeConcept & Storyboarding</a></li>
+									<li><a href="">Copywriting & VisualDesign</a></li>
+									<li><a href="">BrandContent Development </a></li>
+									<li><a href="">PostProduction & Editing</a></li>
+								</ul>
+							</div>
+							<div class="thumb"> <img class="grow" src="img/services/content-creation.jpg" alt="image"> </div>
+						</div>
+						<div class="service-box fade-anim">
+							<div class="count"> <span class="number"> <img  src="img/icons/5.png" alt="image"></span> </div>
+							<div class="content">
+								<h3 class="title"><a href="campaigns.html">Campaigns</a></h3>
+								<ul class="service-list">
+									<li><a href="">Creative Campaign </a></li>
+									<li><a href="">Integrated Marketing Campaigns</a></li>
+									<li><a href="">Seasonal Campaigns </a></li>
+									<li><a href="">Digital & OutdoorAdvertising</a></li>
+								</ul>
+							</div>
+							<div class="thumb"> <img class="grow" src="img/services/Campaigns.jpg" alt="image"> </div>
+						</div>
+						<div class="service-box fade-anim">
+							<div class="count"> <span class="number"> <img  src="img/icons/6.png"  class="one" alt="image"></span> </div>
+							<div class="content">
+								<h3 class="title"><a href="branding.html">Branding</a></h3>
+								<ul class="service-list">
+									<li><a href="">BrandStrategy & Positioning </a></li>
+									<li><a href="">Logo & IdentityDesign</a></li>
+									<li><a href="">Brand  & Collaterals </a></li>
+									<li><a href="">Rebranding & BrandRefresh</a></li>
+								</ul>
+							</div>
+							<div class="thumb"> <img class="grow" src="img/services/branding.jpg" alt="image"> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- service area end  -->
+	<!-- cta area start  -->
+	<div class="p-relative overflow-hidden">
+		<section class="cta-area">
+			<div class="cta-area-inner section-spacing">
+				<div class="area-bg"></div>
+				<div class="container large">
+					<div class="section-content">
+						<div class="section-title-wrapper">
+							<div class="title-wrapper">
+								<h2 class="section-title font-instrumentsans-medium char-anim"><a href="contact.html">Let’s
+                          Work</a></h2> </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<!-- cta area end  -->
+	<!-- funfact area start  -->
+	<section class="funfact-area fade-anim">
+		<div class="container large">
+			<div class="funfact-area-inner pin-area">
+				<div class="section-header section-spacing-top pin-element">
+					<div class="section-title-wrapper">
+						<div class="title-wrapper">
+							<h2 class="section-title font-instrumentsans-medium word-anim">Why  <br>
+                     Mawj</h2> </div>
+					</div>
+				</div>
+				<div class="funfact-wrapper-box section-spacing"> <span class="line-1"></span> <span class="line-2"></span> <span class="line-3"></span> <span class="line-4"></span>
+					<div class="funfact-wrapper">
+						<div class="funfact-item go-visible"> <span class="number">3M+ </span>
+							<p class="text">Brand Impressions We have created.</p>
+						</div>
+						<div class="funfact-item go-visible"> <span class="number">2K+ </span>
+							<p class="text">Audience Interactions We can Gurrenty</p>
+						</div>
+						<div class="funfact-item go-visible"> <span class="number">580+</span>
+							<p class="text">Succesfullly We have Delivered Projects </p>
+						</div>
+						<div class="funfact-item go-visible"> <span class="number">280+</span>
+							<p class="text"> Happy and Satisfied Clients We Have</p>
+						</div>
+						<div class="funfact-item go-visible"> <span class="number">100%</span>
+							<p class="text">Delivering impactful marketing campaign</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- funfact area end  -->
+	<section class="work-area-3">
+		<div class="container large">
+			<div class="work-area-3-inner section-spacing-top">
+				<div class="section-header fade-anim">
+					<div class="section-title-wrapper">
+						<div class="title-wrapper">
+							<h2 class="section-title font-sequelsans-romanbody rr_title_anim">We craft smart, unique ideas for every bold brand
+                      <span class="mb-14"><a href="works.html" class="rr-btn-group">
+                          <span class="b">View all work</span>
+                          <span class="c"><i class="fa-solid fa-arrow-right"></i></span>
+                        </a>
+                      </span>
+                    </h2> </div>
+					</div>
+				</div>
+				<div class="works-wrapper-box">
+					<div class="works-wrapper-3">
+						<div class="work-box fade-anim">
+							<div class="thumb">
+								<div class="image scale" data-cursor-text="View Project">
+									<a href=""><img src="img/portfolio/1.jpg" alt="image"></a>
+								</div>
+							</div>
+							<div class="content">
+								<h3 class="title"><a href="">Car commercials</a></h3>
+								<div class="meta"> <span class="tag">Branding</span> </div>
+							</div>
+						</div>
+						<div class="work-box fade-anim">
+							<div class="thumb">
+								<div class="image scale" data-cursor-text="View Project">
+									<a href=""><img src="img/portfolio/2.jpg" alt="image"></a>
+								</div>
+							</div>
+							<div class="content">
+								<h3 class="title"><a href="">Car commercials</a></h3>
+								<div class="meta"> <span class="tag">Marketing</span> </div>
+							</div>
+						</div>
+						<div class="work-box fade-anim">
+							<div class="thumb">
+								<div class="image scale" data-cursor-text="View Project">
+									<a href=""><img src="img/portfolio/3.jpg" alt="image"></a>
+								</div>
+							</div>
+							<div class="content">
+								<h3 class="title"><a href="">Car commercials</a></h3>
+								<div class="meta"> <span class="tag">Marketing</span> </div>
+							</div>
+						</div>
+						<div class="work-box fade-anim">
+							<div class="thumb">
+								<div class="image scale" data-cursor-text="View Project">
+									<a href=""><img src="img/portfolio/4.jpg" alt="image"></a>
+								</div>
+							</div>
+							<div class="content">
+								<h3 class="title"><a href="">Car commercials</a></h3>
+								<div class="meta"> <span class="tag">Marketing</span> </div>
+							</div>
+						</div>
+						<div class="work-box fade-anim">
+							<div class="thumb">
+								<div class="image scale" data-cursor-text="View Project">
+									<a href=""><img src="img/portfolio/5.jpg" alt="image"></a>
+								</div>
+							</div>
+							<div class="content">
+								<h3 class="title"><a href="">Car commercials </a></h3>
+								<div class="meta"> <span class="tag">Design</span> </div>
+							</div>
+						</div>
+						<div class="work-box fade-anim">
+							<div class="thumb">
+								<div class="image scale" data-cursor-text="View Project">
+									<a href=""><img src="img/portfolio/6.jpg" alt="image"></a>
+								</div>
+							</div>
+							<div class="content">
+								<h3 class="title"><a href="">Car commercials</a></h3>
+								<div class="meta"> <span class="tag">Marketing</span> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- work area end  -->
+	<!-- approach area start  -->
+	<section class="approach-area">
+		<div class="container large">
+			<div class="approach-area-inner section-spacing">
+				<div class="section-header">
+					<div class="section-title-wrapper">
+						<div class="subtitle-wrapper fade-anim" data-direction="left"> <span class="section-subtitle">Journey of <br> Excellence</span> </div>
+						<div class="title-wrapper fade-anim" data-direction="right">
+							<h2 class="section-title font-sequelsans-romanbody rr_title_anim">From concept to campaign, we build <span>brands </span>that <span>stand out</span> with purpose and precision
+                      </h2> </div>
+					</div>
+				</div>
+				<div class="approach-wrapper-box">
+					<div class="steps fade-anim text-heading-gradient">05 </div>
+					<div class="approach-wrapper">
+						<div class="approach-box"> <span class="number">01</span>
+							<h3 class="title">Innovative Thinking</h3>
+							<p class="text">At Mawj, Our team thrives on fresh ideas and forward-thinking strategies that give your brand a unique identity in a crowded market.</p>
+						</div>
+						<div class="approach-box"> <span class="number">02</span>
+							<h3 class="title">Data-Driven Strategy</h3>
+							<p class="text">We combine creative storytelling with analytical precision. By using insights, AI tools, and audience behavior data, we design strategies.</p>
+						</div>
+						<div class="approach-box"> <span class="number">03</span>
+							<h3 class="title">Full-Service Expertise</h3>
+							<p class="text">From branding and social media to campaigns and events, we cover every angle of brand growth. Our integrated approach ensures that all aspects.</p>
+						</div>
+						<div class="approach-box"> <span class="number">04</span>
+							<h3 class="title">Lasting Brand Impact</h3>
+							<p class="text">We believe great brands are built on connection. That’s why we focus on crafting meaningful experiences that leave a lasting impression.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- approach area end  -->
+	</main>
+	<!-- footer area start  -->
+<footer class="footer-area">
+	<div class="container large">
+		<div class="footer-top-inner">
+			<div class="footer-logo">
+				<a href="index.html"><img src="img/header.svg" alt="site-logo"></a>
+			</div>
+			<div class="info-text">
+				<div class="text-wrapper">
+					<p class="text">MAWJ Media is a full-service creative studio dedicated to transforming ideas into visually striking experiences</p>
+				</div>
+				<div class="info-link"> <a href="mailto:hello@mawjmedia.com">hello@mawjmedia.com</a> </div>
+			</div>
+		</div>
+		<div class="footer-widget-wrapper-box">
+			<div class="footer-widget-wrapper">
+				<div class="footer-widget-box newsletter none">
+					<form action="#" class="subscribe-form">
+						<div class="input-field">
+							<input type="email" placeholder="Enter your email">
+							<button type="submit" class="subscribe-btn"><img src="img/home/arrow.png" alt="image"></button>
+						</div>
+					</form>
+					<div class="subscription-text">
+						<div class="text-wrapper">
+							<p class="text">Let’s talk about building your brand story </p>
+						</div>
+					</div>
+				</div>
+				<div class="footer-widget-box">
+					<h2 class="title">Services</h2>
+					<ul class="footer-nav-list">
+						<li><a href="marketing.html">Marketing</a></li>
+						<li><a href="events.html">Events</a></li>
+						<li><a href="social-media-marketing.html">Social Media Marketing</a></li>
+						<li><a href="content-creation.html">Content Creation</a></li>
+						<li><a href="campaigns.html">Campaigns</a></li>
+						<li><a href="branding.html">Branding</a></li>
+					</ul>
+				</div>
+				<div class="footer-widget-box">
+					<h2 class="title">Social</h2>
+					<ul class="footer-nav-list">
+						<li><a href="">Facebook</a></li>
+						<li><a href="">Twitter</a></li>
+						<li><a href="">Instagram</a></li>
+						<li><a href="">YouTube</a></li>
+					</ul>
+				</div>
+				<div class="footer-widget-box">
+					<h2 class="title">Office</h2>
+					<ul class="footer-nav-list">
+						<li><a href="">KSA</a></li>
+						<li><a href="">INDIA</a></li>
+						<li><a href="">UAE</a></li>
+						<li><a href="">BAHRAIN</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright-area">
+		<div class="copyright-area-inner">
+			<div class="copyright-text">
+				<p class="text">© 2025 Mawj All right reserved. </p>
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- footer area end  -->
+</div>
+</div>
+<!-- Vendor JS Files -->
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/gsap.min.js"></script>
+<script src="js/ScrollTrigger.min.js"></script>
+<script src="js/ScrollSmoother.min.js"></script>
+<script src="js/ScrollToPlugin.min.js"></script>
+<script src="js/SplitText.min.js"></script>
+<script src="js/TextPlugin.js"></script>
+<script src="js/customEase.js"></script>
+<script src="js/Flip.min.js"></script>
+<script src="js/jquery.meanmenu.min.js"></script>
+<script src="js/backToTop.js"></script>
+<script src="js/matter.js"></script>
+<script src="js/throwable.js"></script>
+<script src="js/magiccursor.js"></script>
+<!-- Template Main JS File -->
+<script src="js/main.js"></script>
+</body>
+
+</html>

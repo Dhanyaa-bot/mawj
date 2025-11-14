@@ -1,0 +1,161 @@
+@media (max-width: 1499px) {
+span.number img {
+    max-width: 130px;
+}.work-area-work-page .section-content .text {
+    max-width: 75%;
+}
+
+}
+
+@media (max-width: 1399px) {
+    span.number img {
+        max-width: 105px;
+    }.services-wrapper-1 .service-box {
+    grid-template-columns: 1fr 350px 545px;
+	}.footer-area .footer-nav-list li {
+    font-size: 18px;
+    line-height: 29px;
+	}.footer-area .subscription-text .text, .footer-area .subscription-text .text a {
+    font-size: 18px;
+    line-height: 26px;
+	}    .footer-area .copyright-text .text {
+        font-size: 17px;
+    }    .hero-area-5 .section-title {
+        font-size: 50px;
+        line-height: 56px;
+    }.work-area-work-page .section-content .text {
+    max-width: 85%;
+}    .services-wrapper-5 .service-box .title {
+        font-size: 24px;
+        line-height: 45px;
+    }
+	}
+@media (max-width: 599px) {	
+	    .hero-area-5 .section-title {
+        font-size: 40px;
+        line-height: 50px;
+    }.hero-area-5 .hero-video {
+    margin-top: 10%;
+}.hero-area-5 .section-content .text {
+    font-size: 17px;
+    line-height: 27px;
+}    .work-area-work-page .section-content .text {
+        max-width: 100%;
+    }.work-area-work-page .section-content .text {
+    font-size: 17px;
+    line-height: 27px;
+}    .work-area-work-page .section-content-wrapper {
+        margin-top: 15px;
+}.faq-area .accordion-body {
+    font-size: 17px;
+    width: 100%;
+}    .faq-area .accordion-button {
+        font-size: 18px;
+        letter-spacing: -0.2px;
+    }    .contact-area-contact-page .section-content-wrapper {
+        margin-top: 20px;
+	}    .contact-area-contact-page .contact-mail .text {
+        font-size: 18px;
+        max-width: fit-content;
+        letter-spacing: -0.4px;
+    }.contact-area-contact-page .section-header {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 0;
+}.contact-area-contact-page {
+	 padding-top: 0;
+}.hero-area-5 .section-content .text-btn-wrapper {
+    margin-top: 25px;
+}    .work-area-work-page .section-header {
+        padding-top: 0;
+        border-top: none;
+        margin-top: 0;
+    }    .hero-area-service-details .section-header {
+        margin-top: 0;
+    }    .hero-area-service-details .section-content-wrapper {
+        margin-top: 15px;
+    }
+	  .approach-area-about-page.vm-sec .section-header {
+    margin-top: 0;
+    border-top: none;
+    padding-top: 0;
+}  .hero-area .text-wrapper {
+        margin-top: 0;
+    }    .hero-area .award-wrapper {
+        display: none;
+    }.header-area {
+    top: 8px;
+	}    .section-spacing {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }    .hero-area .hero-content {
+        padding-bottom: 30px;
+    }    .about-area .section-title {
+        font-size: 68px;
+    }    .about-area .section-content .text {
+        font-size: 19px;
+        line-height: 29px;
+    }.about-area-inner {
+    height: 100%;
+	}    .about-area .section-content .btn-wrapper {
+        margin-top: 20px;
+	}.about-area .section-content .shape-1,
+	.about-area .section-content .shape-2	{
+    top: -14px;
+	}    .rr-btn {
+        padding: 15px 29px;
+        font-size: 14px;
+    }.paralax-content h2 {
+    font-size: 30px;
+    line-height: 41px;
+    padding-top: 34%;
+	}.section-header.section-spacing-top.pin-element{
+    height: 100%;
+	}.footer-area .footer-top-inner {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }    .footer-area .footer-logo {
+        max-width: 109px;
+    }    .footer-area .footer-top-inner .info-text .text {
+        font-size: 17px;
+        line-height: 28px;
+    }    .footer-area .footer-widget-wrapper {
+        grid-template-columns: -1fr;
+    }    .footer-area .footer-widget-wrapper {
+        gap: 20px 25px;
+    }.footer-area .footer-widget-box.newsletter.none{
+		display:none;
+	}.footer-area .footer-widget-wrapper {
+    display: flex;
+    flex-direction: row;
+	flex-wrap:wrap;
+}.footer-widget-box {
+    width: 45%;
+}    .footer-area .footer-widget-wrapper-box {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }    .footer-area .footer-widget-box .title {
+        font-size: 17px;
+        margin-bottom: 8px;
+    }    .footer-area .footer-nav-list li {
+        font-size: 15px;
+        line-height: 28px;
+    }    .footer-area .copyright-text .text {
+        font-size: 15px;
+        line-height: 22px;
+    }    .footer-area .copyright-area-inner {
+        padding: 15px 0;
+    }    .services-wrapper-1 .service-box {
+        display: flex
+;
+        flex-direction: column;
+    }
+	}
+	
+	@media (max-width: 399px) {	
+	    span.number img {
+        max-width: 85px;
+    }.funfact-area .section-header.section-spacing-top {
+    padding-top: 0;
+}
+	}
